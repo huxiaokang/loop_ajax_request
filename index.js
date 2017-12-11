@@ -16,7 +16,6 @@ function dealRefreshAll(currentTime,allLength,searchObj,dataObj){
 	    type:"GET",
 	    url:url,
     	data:data,
-    	async:true,
     	dateType:"json",
     	success:function(data){
     			var optInfo = data.data;
